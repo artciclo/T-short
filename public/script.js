@@ -19,7 +19,7 @@ function encurtar() {
       if (data.shortId) {
         document.getElementById(
           "resultado"
-        ).textContent = `https://artciclo.github.io/${data.shortId}`;
+        ).textContent = `http://localhost:3000/${data.shortId}`;
       } else {
         document.getElementById("resultado").textContent =
           "Erro ao encurtar URL";
